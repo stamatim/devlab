@@ -1,0 +1,34 @@
+{
+  "name": "devlab",
+  "version": "1.0.0",
+  "description": "A monorepo by Stamati Morellas of his software development sandbox and experimentation labs.",
+  "scripts": {
+    "clean-apps": "rm -r apps/*/node_modules apps/*/package-lock.json"
+  },
+  "workspaces": [
+    "apps/*",
+    "courses/*",
+    "experiments/*",
+    "templates/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamatim/devlab.git"
+  },
+  "keywords": [
+    "monorepo",
+    "projects",
+    "experiments",
+    "labs",
+    "tests",
+    "tinkering",
+    "building",
+    "learning"
+  ],
+  "author": "Stamati Morellas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stamatim/devlab/issues"
+  },
+  "homepage": "https://github.com/stamatim/devlab#readme"
+}
